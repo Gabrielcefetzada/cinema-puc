@@ -1,0 +1,64 @@
+body {
+  background-image: radial-gradient(rgb(46, 46, 46), rgb(22, 22, 22), rgb(0, 0, 0));
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.header-global-white{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Avenir,sans-serif;
+    padding: 2rem 2rem 0rem 2rem;
+    color: white;
+}
+
+.header-global-white span:hover{
+    cursor: pointer;
+    color: rgb(219, 218, 210);
+}
+
+.header-global-black{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Avenir,sans-serif;
+    padding: 2rem 2rem 0rem 2rem;
+    color: rgb(2, 2, 2);
+}
+
+.header-global-black span:hover{
+    cursor: pointer;
+    color: rgb(26, 26, 26);
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.card-group .card {
+    max-width: 33vw;
+    min-width: 400px;
+}
+
+@media only screen and (max-width: 700px) {
+    .card-group {
+        display: block;
+ 
+    }
+
+    .card {
+        min-width: 100%;
+    }
+
+
+  }

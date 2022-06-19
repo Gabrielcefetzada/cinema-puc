@@ -1,0 +1,13 @@
+.logo {
+    font-family: 'WaltographRegular' !important;
+    font-weight: normal !important;
+    font-style: normal !important;; 
+    font-size: 3.0em !important;
+    font-family: Avenir,sans-serif;
+ }
+
+ .sticky {
+     position: sticky !important;
+     top: 0;
+     z-index: 1;
+ }
