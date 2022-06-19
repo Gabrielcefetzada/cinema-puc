@@ -11,6 +11,9 @@ const fetchMovies = async () => {
     data = data.results;
     globalData = data;
     filteredData = data;
+    
+    let loading = document.querySelector("#loadingMovies");
+    loading.style.display = "none";
     return globalData;
 };
 
